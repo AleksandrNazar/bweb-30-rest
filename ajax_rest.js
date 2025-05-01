@@ -3,7 +3,7 @@ $(document).ready(function () {
     var formData = {
       query: $("#ip").val(),
     };
-	var url = "http://suggestions.dadata.ru/suggestions/api/4_1/rs/iplocate/address?ip=";
+	var url = "https://suggestions.dadata.ru/suggestions/api/4_1/rs/iplocate/address?ip=";
 	var token = "db5d0da29b8027007c4d35be0e93a8af2b872f18";
 
     $.ajax({
